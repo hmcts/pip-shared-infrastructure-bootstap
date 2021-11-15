@@ -1,8 +1,8 @@
 locals {
-  prefix               = "${var.product}-sharedservice-boot-${var.env}"
-  resource_group_name  = "${local.prefix}-rg"
-  key_vault_name       = "${local.prefix}-kv"
-  env_long_name        = var.env == "sbox" ? "sandbox" : var.env == "stg" ? "staging" : var.env
+  prefix              = "${var.product}-bootstrap-${var.env}"
+  resource_group_name = "${local.prefix}-rg"
+  key_vault_name      = "${local.prefix}-kv"
+  env_long_name       = var.env == "sbox" ? "sandbox" : var.env == "stg" ? "staging" : var.env
 }
 data "azurerm_client_config" "current" {}
 
