@@ -12,3 +12,8 @@ terraform {
 provider "azurerm" {
   features {}
 }
+provider "azurerm" {
+  features {}
+  alias           = "ptl"
+  subscription_id = "6c4d2513-a873-41b4-afdd-b05a33206631"
+}
