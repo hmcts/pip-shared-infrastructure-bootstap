@@ -2,7 +2,7 @@
 //noinspection GroovyUnusedAssignment
 @Library("Infrastructure") _
 
-def product = "pip"
+def product = "pip-bootstrap"
 
 withInfraPipeline(product) {
 }
