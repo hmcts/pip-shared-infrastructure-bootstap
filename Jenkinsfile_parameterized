@@ -5,8 +5,7 @@
 def product = "pip"
 def component = "bootstrap"
 
-def branchesToSync = ['demo', 'test', 'ithc']
 
-withInfraPipeline(product, component) {
- syncBranchesWithMaster(branchesToSync)
+withParameterizedInfraPipeline(product, "sbox", "sbox", component) {
+
 }
