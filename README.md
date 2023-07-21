@@ -1,4 +1,4 @@
-# PIP Bootstrap Shared Infrastructure
+# PIP Bootstrap Shared Infrastructure.
 
 [![Build Status](https://travis-ci.org/hmcts/pip-shared-infrastructure-bootstap.svg?branch=master)](https://travis-ci.org/hmcts/pip-shared-infrastructure-bootstap)
 
