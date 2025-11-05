@@ -4,7 +4,7 @@ terraform {
   required_version = ">= 1.9.0"
   required_providers {
     azurerm = {
-      version = "4.43.0"
+      version = "4.51.0"
     }
   }
 }
